@@ -570,6 +570,10 @@ body {
    .card .role {
       font-size: 70%;
    }
+   .backgroundContainer .card-group .card .smallNavbar  img{
+      width: 20px;
+      height: 20px;
+   }
    .backItem1 {
       padding-top: 80%;
       padding-left: 30%;
