@@ -1,0 +1,119 @@
+* {
+   font-family: 'Roboto', sans-serif;
+}
+body {
+   background-color: #535c68;
+
+}
+.card {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+   width: 40%;
+   height: 55%;
+
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+   background: white;
+box-shadow: 0 4px 12px 0 rgba(8, 10, 12, 0.37);
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+input {
+   width: 70%;
+   height: 7%;
+   font-size: 125%;
+
+}
+textarea {
+   width: 70%;
+   height: 40%;
+   font-size: 125%;
+
+}
+
+#username {
+
+   
+}
+#name {
+ color: #22a6b3;
+}
+
+#gmail {
+
+}
+#email {
+   color: #22a6b3;
+}
+
+#comment {
+   color: #22a6b3;
+}
+#message {
+
+}
+#sendMessage {
+   margin: 5% 0% 5% 0%;
+   width: 25%;
+   height: 10%;
+
+   color: white;
+   background-color: #bdc3c7;
+   border: 1px solid white;
+   border-radius: 10px;
+
+}
+#sendMessage:hover {
+   color: deepskyblue;
+   background-color: #2c3e50;
+   transition: 0.4s;
+}
+/* 
+side bar */
+
+.sideBar {
+   position: absolute;
+   top: 35%;
+   left: 5%;
+   transform: translate(-50%, -10%);
+}
+.sideBar div svg {
+
+   background-color: #22a6b3;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 10px;
+}
+.sideBar .twitter svg:hover {
+   fill: #00acee;
+   background-color: white;
+}
+.sideBar .facebook svg:hover {
+   fill:white;
+   background-color: #4A90E2;
+   border: 0px solid #4A90E2;
+
+}
+
+.sideBar .linkedin svg:hover {
+   fill:#4A90E2;
+   background-color: white;
+}
+
+.sideBar .github svg:hover {
+   background-color: white;
+
+   fill:#211F1F;
+}
+
