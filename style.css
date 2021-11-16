@@ -533,7 +533,7 @@ body {
 /* for mobile */
 
 @media (max-width:600px) {
-
+ 
 
    /* navbar section */
    .boxLogo {
@@ -547,8 +547,7 @@ body {
    }
 
    /* backgroundContainer section  */
-   .card-group {
-   }
+
    .card {
       width: 40%;
       height: 30%;
@@ -603,11 +602,11 @@ body {
       
    }
    .helloGroup .linkGroup .link2 {
-      margin-left: 10%;
+
    }
    .helloGroup p {
-      font-size: 200%;
-      text-align: center;
+      font-size: 180%;
+      
    }
       /* 
    gridContainer section */
@@ -648,9 +647,9 @@ body {
 
 
    }
-   .gridContainer .flexContainer {
+   /* .gridContainer .flexContainer {
       display: none;
-   }
+   } */
    .gridContainer .flexContainer img {
       width: 35px;
       height: 35px;
@@ -731,13 +730,59 @@ body {
    /* .flexContainer .hidden {
       display: none;
    } */
-
-
-   button {
-      width: 50%;
-      height: 100%;
-      font-size: 200%;
-   }
-
    
+   .footer {
+      background-image: linear-gradient(to right, #59aae9, #23bfe1, #4ecfc8, #8ed9ac, #cade9c);
+   }
+   .footer .btn {
+      width: 50%;
+      height: 50%;
+      font-size: 150%;
+      padding: 2%;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+      
+   }
+   .footer .btn:hover{
+      background-color: #487eb0;
+      color: white;
+      transition: 0.4s;
+   }
+   
+   
+   
+   .hidden {
+      display: none;
+   }
+   .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+      }
+      @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+      } 
+ 
+      
+
 }
+
+  
+   
