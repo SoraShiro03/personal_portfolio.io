@@ -530,6 +530,13 @@ body {
    transition: 0.3s;
 }
 
+@media (min-width:600px) {
+   
+   .show {
+      display: none;
+   }
+}
+
 /* for mobile */
 
 @media (max-width:600px) {
@@ -757,12 +764,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
       color: white;
       transition: 0.4s;
    }
-   
-   
-   
    .hidden {
       display: none;
    }
+   
+   
    .fadeIn {
       -webkit-animation-name: fadeIn;
       animation-name: fadeIn;
@@ -778,11 +784,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
       @keyframes fadeIn {
       0% {opacity: 0;}
       100% {opacity: 1;}
-      } 
- 
-      
+      }  
+
 
 }
 
-  
+
    
